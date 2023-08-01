@@ -1,5 +1,5 @@
 # This is the day6 project of the 30 days of React Challenge
-Main repo [here] (https://github.com/klanti117/30_days_react_challenge)
+Main repo [here](https://github.com/klanti117/30_days_react_challenge)
 Demo: 
 
 # Getting Started with Create React App
