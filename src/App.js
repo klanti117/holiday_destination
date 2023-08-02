@@ -19,13 +19,14 @@ function App() {
       <h1>30 Days Of React: Day6</h1>
       <button onClick={getData}>Select Your Destination</button>
         <div>
-        {countries.map((country) => (
-          <div key={country.name}>
+        {countries.map(({name, capital,population, flags:{png, alt} }) => (
+          <div key={name}>
             <Card 
-              name={country.name.common} 
-              capital={country.capital}  
-              population={country.population}  
-              flag={country.flag}
+              name={name.common} 
+              capital={capital}  
+              population={population}  
+              flagSrc={png}
+              flagAlt={alt}
               />
               <h1>end of </h1>
           </div>
