@@ -11,14 +11,14 @@ const contianerStyle = {
 }
 
 const Card = 
-({name, capital, population, flagSrc, flagAlt, currencies, language}) => {
+({name, capital, population, flagSrc, flagAlt, currencies, languages}) => {
   return (
     <div style={contianerStyle}>
-        <h3><strong>Name: </strong>{name}</h3>
-        <h3><strong>Capital: </strong>{capital}</h3>
-        <h3><strong>Population: </strong>{population}</h3>
-        <h3><strong>Currency: </strong>{currencies}</h3>
-        <h3><strong>Language: </strong>{language}</h3>
+        <p><strong>Name: </strong>{name}</p>
+        <p><strong>Capital: </strong>{capital}</p>
+        <p><strong>Population: </strong>{population}</p>
+        <p><strong>Currency: </strong>{currencies}</p>
+        <p><strong>Language: </strong>{languages}</p>
         <img src={flagSrc} alt={flagAlt}/>
     </div>
   )
